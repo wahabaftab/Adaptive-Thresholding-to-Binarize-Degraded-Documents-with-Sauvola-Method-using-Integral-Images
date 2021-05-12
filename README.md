@@ -15,7 +15,15 @@ where k is a control factor in the range of [0.2, 0.5], R is a predetermined ima
 
 ### Integreal Images:
 
+Integral image of any greyscale image can be efficiently computed in a single pass and in a single line of code with OpenCV .Once we have the integral image, the local mean m(x, y) for any window size can be computed simply by using two addition and two subtraction operations instead of the summation over all pixel values within that window:
+
+![image](https://user-images.githubusercontent.com/25950715/118011850-e16eb900-b369-11eb-9fd4-19953eebb4b3.png)
 
 
+Similarly, if we consider the computation of the local variance
+
+![image](https://user-images.githubusercontent.com/25950715/118011874-ea5f8a80-b369-11eb-91af-f3af05d41120.png)
+
+Substituting these mean and standard deviation values in the original sauvola method formula gives the same result as summing over all pixels values within a window but its many times faster. This helped us achieve the desired result without any major time issue.
 
 We have gathered some sample degraded images in the Original folder and performed both otsu and our method and saved outputs in respective folders.
