@@ -73,7 +73,8 @@ for img in glob.glob("Original/*.jpg"):
 
 
     h1,w1=d.shape
-
+    
+    #setting pixel values based on computed threshold
     for i in range(0, w1, 1):
         for j in range(0, h1, 1):
 
