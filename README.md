@@ -24,6 +24,8 @@ Similarly, if we consider the computation of the local variance
 
 ![image](https://user-images.githubusercontent.com/25950715/118011874-ea5f8a80-b369-11eb-91af-f3af05d41120.png)
 
-Substituting these mean and standard deviation values in the original sauvola method formula gives the same result as summing over all pixels values within a window but its many times faster. This helped us achieve the desired result without any major time issue.
+Substituting these mean and standard deviation values in the original sauvola method formula gives the same result as summing over all pixels values within a window but its many times faster. This helped us achieve the desired result with efficient runtime.
 
-We have gathered some sample degraded images in the Original folder and performed both otsu and our method and saved outputs in respective folders.
+
+### About the Code:
+We have gathered some sample degraded images in the Original folder and performed both otsu and our method and saved outputs in respective folders. You can run **main.py** file
