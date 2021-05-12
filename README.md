@@ -7,8 +7,15 @@ This repo contains a local adaptive thresholding technique to binarize degraded 
 This method has been proposed by Sauvola et al. in 1997 [8]. This approach is
 actually inherited from Niblack method. It can successfully overcome the black noise
 problem. The thresholding formula is as following:-
+
 ܶ![image](https://user-images.githubusercontent.com/25950715/118011211-33630f00-b369-11eb-80a7-45482d9fb15e.png)
-where k is a control factor in the range of [0.2, 0.5], R is a predetermined image graylevel value. The author suggested k=0.2, R= 125.
+
+where k is a control factor in the range of [0.2, 0.5], R is a predetermined image graylevel value. The author suggested k=0.2, R= 125. We can change value of k and R along with the window size in our code to achieve desired results.
+
+
+### Integreal Images:
+
+
 
 
 We have gathered some sample degraded images in the Original folder and performed both otsu and our method and saved outputs in respective folders.
