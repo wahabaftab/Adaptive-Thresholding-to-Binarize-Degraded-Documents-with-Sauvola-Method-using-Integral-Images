@@ -1,2 +1,4 @@
 # Adaptive-Thresholding-to-Binarize-Degraded-Documents-with-Sauvola-Method-using-Integral-Images
-Degraded documents binarization using Sauvola method with the use of integral images to improve efficiency.
+
+This repo contains a local adaptive thresholding technique to binarize degraded documents using a modified version of Sauvola Method with the use Integral Images. I took inspiration from the paper: where it's shown how Sauvola method can be made almost as much efficient as Otsu Binarization  independent of the window size without having any impact on the method's quality.
+
