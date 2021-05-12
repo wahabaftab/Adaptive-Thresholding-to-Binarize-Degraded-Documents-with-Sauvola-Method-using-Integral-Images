@@ -1,6 +1,6 @@
 # Adaptive-Thresholding-to-Binarize-Degraded-Documents-with-Sauvola-Method-using-Integral-Images
 
-This repo contains a local adaptive thresholding technique to binarize degraded documents using a modified version of Sauvola Method with the use Integral Images. We took inspiration from the paper: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.5334&rep=rep1&type=pdf where it's shown how Sauvola method can be made almost as much efficient as Otsu Binarization  independent of the window size without having any impact on the method's quality.
+This repo contains a local adaptive thresholding technique to binarize degraded documents using a modified version of Sauvola Method with the use Integral Images. We took inspiration from the paper: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.5334&rep=rep1&type=pdf where it's shown how Sauvola method can be made almost as much efficient as Otsu Binarization independent of the window size and without having any impact on the method's quality.
 
 ### Sauvola Method:
 
@@ -28,4 +28,4 @@ Substituting these mean and standard deviation values in the original sauvola me
 
 
 ### About the Code:
-We have gathered some sample degraded images in the Original folder and performed both otsu and our method and saved outputs in their respective folders. You can run **main.py** file which runs over the entire Original image folder to reproduce results. Our notebook file runs the method on a single example to compare Our results and  Otsu method with the help of image visualisaiton, you can try it yourself for other images. Feel free to try it on your own images and change values of R,k and window according to your needs.
+We have gathered some sample degraded images in the Original folder and performed both otsu and our method and saved outputs in their respective folders. You can run **main.py** file which runs over the entire Original image folder to reproduce results. Our notebook file runs the method on a single example to compare Our results with Otsu method using image visualisaiton, you can try it yourself for other images. Feel free to try it on your own images and change values of R,k and window according to your needs.
