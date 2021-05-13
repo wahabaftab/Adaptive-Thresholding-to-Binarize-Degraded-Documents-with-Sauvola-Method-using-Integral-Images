@@ -29,3 +29,5 @@ Substituting these mean and standard deviation values in the original sauvola me
 
 ### About the Code:
 We have gathered some sample degraded images in the Original folder and performed both otsu and our method and saved outputs in their respective folders. You can run **main.py** file which runs over the entire Original image folder to reproduce results. Our notebook file runs the method on a single example to compare Our results with Otsu method using image visualisaiton, you can try it yourself for other images. Feel free to try it on your own images and change values of R,k and window according to your needs.
+
+You can find detailed explanation here: https://wahabaftab.com/Sauvola-Thresholding-Integral-Images/
